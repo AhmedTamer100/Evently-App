@@ -51,7 +51,7 @@ class _SignInViewState extends State<SignInView> {
                 }
                 return null;
               },
-              prefixIcon: ImageIcon(
+              prefixIcon: const ImageIcon(
                 AssetImage(
                   AppAssets.mailIcn,
                 ),
@@ -70,7 +70,7 @@ class _SignInViewState extends State<SignInView> {
                 }
                 return null;
               },
-              prefixIcon: ImageIcon(
+              prefixIcon: const ImageIcon(
                 AssetImage(
                   AppAssets.lockIcn,
                 ),

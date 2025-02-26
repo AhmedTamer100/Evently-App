@@ -113,13 +113,13 @@ class _HomeViewState extends State<HomeView> {
                               provider.setCurrentTheme(ThemeMode.dark);
                             }
                           },
-                          child: Icon(
+                          child: const Icon(
                             Icons.wb_sunny_outlined,
                             size: 28,
                             color: ColorPalette.white,
                           ),
                         ),
-                        SizedBox(width: 10),
+                        const SizedBox(width: 10),
                         GestureDetector(
                           onTap: () {},
                           child: Container(
@@ -143,7 +143,7 @@ class _HomeViewState extends State<HomeView> {
                     )
                   ],
                 ),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 DefaultTabController(
                   length: 5,
                   child: TabBar(

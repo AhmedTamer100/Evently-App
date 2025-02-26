@@ -62,12 +62,12 @@ class HomeHeaderWidget extends StatelessWidget {
               const Spacer(),
               Row(
                 children: [
-                  Icon(
+                  const Icon(
                     Icons.wb_sunny_outlined,
                     size: 28,
                     color: ColorPalette.white,
                   ),
-                  SizedBox(width: 10),
+                  const SizedBox(width: 10),
                   Container(
                     width: 35,
                     height: 35,

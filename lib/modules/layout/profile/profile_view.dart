@@ -60,13 +60,13 @@ class _ProfileViewState extends State<ProfileView> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        "Ahmed Tamer",
+                        "Omnia Hamdy",
                         style: theme.textTheme.headlineSmall?.copyWith(
                             color: ColorPalette.white,
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        "AhmedTamer@gmail.com",
+                        "OmniaHamdy@gmail.com",
                         style: theme.textTheme.titleMedium?.copyWith(
                             color: ColorPalette.white,
                             fontWeight: FontWeight.bold),
@@ -127,8 +127,9 @@ class _ProfileViewState extends State<ProfileView> {
                 items: provider.themeList,
                 onChanged: (value) {
                   if (value == "Dark") provider.setCurrentTheme(ThemeMode.dark);
-                  if (value == "Light")
+                  if (value == "Light") {
                     provider.setCurrentTheme(ThemeMode.light);
+                  }
                 },
                 decoration: CustomDropdownDecoration(
                   closedBorder:

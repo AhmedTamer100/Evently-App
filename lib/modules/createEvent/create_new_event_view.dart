@@ -1,4 +1,3 @@
-import 'package:evenly_app/core/extensions/dimensions_ext.dart';
 import 'package:evenly_app/core/extensions/extensions.dart';
 import 'package:evenly_app/core/services/firebase_firestore_serivce.dart';
 import 'package:evenly_app/core/services/snack_bar_service.dart';

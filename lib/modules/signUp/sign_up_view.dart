@@ -51,7 +51,7 @@ class _SignUpViewState extends State<SignUpView> {
                 }
                 return null;
               },
-              prefixIcon: ImageIcon(
+              prefixIcon: const ImageIcon(
                 AssetImage(
                   AppAssets.personIcn,
                 ),
@@ -71,7 +71,7 @@ class _SignUpViewState extends State<SignUpView> {
                 }
                 return null;
               },
-              prefixIcon: ImageIcon(
+              prefixIcon: const ImageIcon(
                 AssetImage(
                   AppAssets.mailIcn,
                 ),
@@ -93,7 +93,7 @@ class _SignUpViewState extends State<SignUpView> {
                 }
                 return null;
               },
-              prefixIcon: ImageIcon(
+              prefixIcon: const ImageIcon(
                 AssetImage(
                   AppAssets.lockIcn,
                 ),
@@ -114,7 +114,7 @@ class _SignUpViewState extends State<SignUpView> {
                 }
                 return null;
               },
-              prefixIcon: ImageIcon(
+              prefixIcon: const ImageIcon(
                 AssetImage(
                   AppAssets.lockIcn,
                 ),

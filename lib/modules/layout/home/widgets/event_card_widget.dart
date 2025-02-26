@@ -19,7 +19,7 @@ class EventCardWidget extends StatelessWidget {
     return Container(
       height: 200,
       width: double.infinity,
-      padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(16.0),
         border: Border.all(color: ColorPalette.primaryColor, width: 1.4),
@@ -36,7 +36,7 @@ class EventCardWidget extends StatelessWidget {
           Container(
             width: 45,
             alignment: Alignment.center,
-            padding: EdgeInsets.symmetric(vertical: 2),
+            padding: const EdgeInsets.symmetric(vertical: 2),
             // height: 49,
             decoration: BoxDecoration(
               color: ColorPalette.white,
@@ -74,7 +74,7 @@ class EventCardWidget extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(width: 10),
+                const SizedBox(width: 10),
                 GestureDetector(
                   onTap: () {
                     eventDataModel.isFavorite = !eventDataModel.isFavorite;

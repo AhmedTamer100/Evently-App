@@ -4,7 +4,6 @@ import 'package:lottie/lottie.dart';
 
 class SnackBarService {
   static void showSuccessMessage(String msg) {
-
     BotToast.showCustomNotification(
       toastBuilder: (void Function() cancelFunc) {
         return Material(
@@ -27,7 +26,7 @@ class SnackBarService {
                       Container(
                         height: double.infinity,
                         width: 10,
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                           color: Color(0xFF46c234),
                           borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(12),

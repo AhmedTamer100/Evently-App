@@ -18,7 +18,7 @@ class HomeTabWidget extends StatelessWidget {
     var theme = Theme.of(context);
 
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 5),
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
       decoration: BoxDecoration(
         color: !isSelected ? ColorPalette.primaryColor : ColorPalette.white,
         borderRadius: BorderRadius.circular(20.0),
@@ -30,7 +30,7 @@ class HomeTabWidget extends StatelessWidget {
             eventCategory.eventCategoryIcon,
             color: !isSelected ? ColorPalette.white : ColorPalette.primaryColor,
           ),
-          SizedBox(width: 5),
+          const SizedBox(width: 5),
           Text(
             eventCategory.eventCategoryName,
             style: theme.textTheme.titleMedium?.copyWith(

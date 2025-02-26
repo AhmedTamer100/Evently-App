@@ -7,9 +7,8 @@ extension FormatPoints on String {
     String value = this;
     int counter = 1;
     while (counter * 3 < length) {
-      value = value.substring(0, length - counter * 3) +
-          ',' +
-          value.substring(length - counter * 3, (length + counter - 1));
+      value =
+          '${value.substring(0, length - counter * 3)},${value.substring(length - counter * 3, (length + counter - 1))}';
       counter += 1;
     }
     return value;

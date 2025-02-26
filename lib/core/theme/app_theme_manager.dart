@@ -20,7 +20,7 @@ abstract class AppThemeManager {
     ),
   );
   static ThemeData darkTheme = ThemeData(
-    scaffoldBackgroundColor: Color(0xFF101127),
+    scaffoldBackgroundColor: const Color(0xFF101127),
     appBarTheme: const AppBarTheme(
       centerTitle: true,
       backgroundColor: Colors.white,
